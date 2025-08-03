@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Diabetes Prediction (KNN)</title>
+    <style>
+      body {
+        background: #f2f6ff;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 600px;
+        background: #ffffff;
+        margin: 50px auto;
+        padding: 30px 40px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+      }
+
+      label {
+        font-weight: 600;
+        display: block;
+        margin: 12px 0 5px;
+        color: #555;
+      }
+
+      input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        font-size: 14px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+        margin-top: 20px;
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .result {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        color: #2c3e50;
+      }
+
+      .footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 13px;
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🩺 Diabetes Predictor</h1>
+      <form method="post">
+        <label for="pregnancies">Pregnancies:</label>
+        <input
+          type="number"
+          name="pregnancies"
+          id="pregnancies"
+          step="1"
+          required
+        />
+
+        <label for="glucose">Glucose:</label>
+        <input type="number" name="glucose" id="glucose" step="0.1" required />
+
+        <label for="bp">Blood Pressure:</label>
+        <input type="number" name="bp" id="bp" step="0.1" required />
+
+        <label for="skin">Skin Thickness:</label>
+        <input type="number" name="skin" id="skin" step="0.1" required />
+
+        <label for="insulin">Insulin:</label>
+        <input type="number" name="insulin" id="insulin" step="0.1" required />
+
+        <label for="bmi">BMI:</label>
+        <input type="number" name="bmi" id="bmi" step="0.1" required />
+
+        <label for="dpf">Diabetes Pedigree Function:</label>
+        <input type="number" name="dpf" id="dpf" step="0.01" required />
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" step="1" required />
+
+        <input type="submit" value="Predict" />
+      </form>
+
+      {% if prediction %}
+      <div class="result">🧪 Prediction: <span>{{ prediction }}</span></div>
+      {% endif %}
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Diabetes Predictor | Built with Flask & KNN
+    </div>
+  </body>
+</html>
