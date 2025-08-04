@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!-- # Logistic-Regression
+=======
+# KNN
+>>>>>>> 353930f1251d8f21ca4311180cb8bcc97094f00c
 
 <img width="913" height="906" alt="image" src="https://github.com/user-attachments/assets/b22d4d5c-77be-480e-876f-8ba689834320" />
  -->
