@@ -61,7 +61,7 @@ Visit: http://localhost:10000
 
 
 ## Screenshots
-<img width="913" height="906" alt="image" src="https://github.com/user-attachments/assets/b22d4d5c-77be-480e-876f-8ba689834320"
+<img width="913" height="906" alt="image" src="https://github.com/user-attachments/assets/b22d4d5c-77be-480e-876f-8ba689834320" />
 
 ## Future Improvements
 Train on a larger dataset
