@@ -7,7 +7,7 @@
 <img width="913" height="906" alt="image" src="https://github.com/user-attachments/assets/b22d4d5c-77be-480e-876f-8ba689834320" />
  -->
 
-## KNN – k-Nearest Neighbors Classifier Web App
+# KNN – k-Nearest Neighbors Classifier Web App
 
 This project implements a K-Nearest Neighbors (KNN) classification model using Flask and scikit-learn. It predicts whether a student will Pass or Fail based on their academic engagement using an intuitive web interface.
 ---
