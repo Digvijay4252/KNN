@@ -61,7 +61,16 @@ Visit: http://localhost:10000
 
 
 ## Screenshots
-<img width="913" height="906" alt="image" src="https://github.com/user-attachments/assets/b22d4d5c-77be-480e-876f-8ba689834320" />
+
+# Step 1
+<img width="1881" height="890" alt="image" src="https://github.com/user-attachments/assets/22dd6c4e-2b5c-4fd0-a014-6139760f5a70" />
+
+# Step 2
+<img width="1864" height="845" alt="image" src="https://github.com/user-attachments/assets/12fac56d-0b51-418e-8276-6ac51ff6eac3" />
+
+# Step 3
+<img width="1903" height="913" alt="image" src="https://github.com/user-attachments/assets/77dd7d6b-2fdd-4458-8f42-5548ab4c2c14" />
+
 
 ## Future Improvements
 Train on a larger dataset
