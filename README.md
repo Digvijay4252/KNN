@@ -10,6 +10,7 @@
 # KNN – k-Nearest Neighbors Classifier Web App
 
 This project implements a K-Nearest Neighbors (KNN) classification model using Flask and scikit-learn. It predicts whether a student will Pass or Fail based on their academic engagement using an intuitive web interface.
+
 ---
 
 ---
