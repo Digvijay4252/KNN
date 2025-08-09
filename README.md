@@ -9,7 +9,7 @@
 
 # KNN – k-Nearest Neighbors Classifier Web App
 
-This project implements a K-Nearest Neighbors (KNN) classification model using Flask and scikit-learn. It predicts whether a student will Pass or Fail based on their academic engagement using an intuitive web interface.
+This project implements a K-Nearest Neighbors (KNN) classification model using Flask and scikit-learn. It predicts whether a patient has diabetes or not, based on medical data, via an intuitive web interface. 
 
 ---
 
@@ -17,26 +17,24 @@ This project implements a K-Nearest Neighbors (KNN) classification model using F
 
 ##  How It Works
 
-- User enters values for study hours, attendance, assignments, and sleep.
+-User provides input values (from the diabetes_data.csv dataset).
 
-- The app uses the trained KNN model to predict if the student will Pass or Fail.
+-The app uses the trained KNN model to predict whether the patient has diabetes or not.
 
-- Output is displayed instantly in the browser.
+-The output is displayed instantly in the browser. 
 
 ---
 
 ##  Project Structure
 ```
 KNN/
-├── app.py                     # Flask web app
-├── train_model.py             # KNN model training script
-├── model.pkl                  # Trained KNN model
-├── pass_map.pkl               # Encoded label map for Pass/Fail
-├── student_performance.csv    # Dataset for training
+├── app.py
+├── train_model.py
+├── model.pkl
+├── outcome_map.pkl
+├── diabetes_data.csv
 ├── templates/
-│   └── index.html             # HTML input form
-└── static/
-    └── style.css              # Optional CSS styling
+    └── index.html
 
 ```
 ---
